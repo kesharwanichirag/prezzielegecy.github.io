@@ -1,0 +1,72 @@
+#main_body{
+	margin: 0px auto;
+	margin-top: 180px;
+	width: 40%;
+	text-align: center;
+}
+
+#title label{ 
+	margin-top: 20px;
+	display: inline-block;
+	color: #cf3c48;
+	font-size: 23px;
+	border-bottom: 3px solid #cf3c48;
+	padding-bottom: 7px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 2px;
+	margin-right: 20px;
+}
+
+#loginform table{
+	width: 90%;
+	margin-top: 40px;
+	margin-left: 60px;
+}
+
+.fields{
+	margin-left: 40px;
+	float: left;
+	border: 2px solid #999;
+	width: 70%;
+	font-size: 16px;
+	padding: 2px 15px;
+	height: 150px;
+	resize: none;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+.fields:focus{
+	outline: none;
+}
+
+
+#button{
+	height: 37px;
+	width: 150px;
+	margin-top: 30px;
+	font-size: 16px;
+	background-color: #cf3c48;
+	border: 1px solid #fff;
+	border-radius: 13px;
+	color: #fff;
+	border: none;
+}	
+
+#button:hover{
+	background-color: #fff;
+	color: #cf3c48;
+	border: 1px solid #cf3c48;
+	cursor: pointer;
+}
+
+.text_area_labels{
+	font-weight: bold;
+	font-size: 20px;
+	color: #0060bf;
+	float: left;
+	margin-left: 205px;
+	display: inline-block;
+	margin-top: 20px;
+}

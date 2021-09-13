@@ -1,0 +1,72 @@
+#main_body{
+	margin: 0px auto;
+	margin-top: 170px;
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+#_heading_{
+	text-align: center;
+	background-color: #669db2;
+	color: #fff;
+	padding: 7px;
+}
+
+#bred_{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.seller_process_viewers{
+	margin-top: 20px;
+	font-size: 19px;
+	margin-bottom: 20px;
+}
+#seller_home_top{
+	text-decoration: none;
+}
+
+#seller_dashboard_current_page{
+	cursor: pointer;
+	font-weight: bold;
+}
+
+
+.all_users{
+	border: 1px solid #999;
+	width: 320px;
+	displaY: inline-block;
+	margin-left: 30px;
+	margin-top: 20px;
+	border-radius: 30px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.right_view{
+	width: 100%;
+}
+
+.usernames{
+	margin-left: 20px;	
+	display: inline-block;
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+.emails{
+	margin-left: 20px;	
+	display: inline-block;
+	color: #666;
+}
+
+.mobiles{
+	margin-left: 20px;	
+	display: inline-block;
+	color: #666;
+}
+
+/*.block_user{
+	margin-left: 270px;	
+	display: inline-block;
+	color: red;
+}*/

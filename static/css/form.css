@@ -1,0 +1,12 @@
+#title label{ 
+	margin-top: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	color: #cf3c48;
+	font-size: 23px;
+	border-bottom: 3px solid #cf3c48;
+	padding-bottom: 7px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 2px;
+}

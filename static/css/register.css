@@ -1,0 +1,146 @@
+#main_body{
+	margin: 0px auto;
+	margin-top: 200px;
+	width: 40%;
+	text-align: center;
+}
+
+#title label{ 
+	margin-top: 10px;
+	margin-right: 20px;
+	display: inline-block;
+	color: #cf3c48;
+	font-size: 23px;
+	border-bottom: 3px solid #cf3c48;
+	padding-bottom: 7px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 2px;
+}
+form table{
+	width: 90%;
+	margin-top: 0px;
+	margin-left: 60px;
+}
+
+.labels{
+	height: 30px;
+	float: right;
+	margin-top: 30px;
+}
+#email_image{
+	height: 35px;
+}
+
+.fields{
+	margin-left: 5px;
+	float: left;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: 2px solid #cf3c48;
+	width: 70%;
+	height: 25px;
+	margin-top: 30px;
+	font-size: 16px;
+	padding: 2px 15px;
+}
+
+.fields:focus{
+	outline: none;
+}
+
+
+#button{
+	height: 37px;
+	width: 150px;
+	margin-top: 30px;
+	font-size: 16px;
+	background-color: #cf3c48;
+	border: 1px solid #fff;
+	border-radius: 13px;
+	color: #fff;
+	border: none;
+	margin-right: 40px;
+}	
+
+#button:hover{
+	background-color: #fff;
+	color: #cf3c48;
+	border: 1px solid #cf3c48;
+	cursor: pointer;
+}
+
+.error{
+	margin-left: 5px;
+	float: left;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: 2px solid red;
+	color: red;
+	background-color: #ffc6c6;
+	width: 70%;
+	height: 25px;
+	margin-top: 30px;
+	font-size: 16px;
+	padding: 2px 15px;
+}
+
+#error_message{
+	background-color: #ffc6c6;
+	width: 80%;
+	margin-left: 52px;
+	display: none;
+	color: red;
+	font-size: 15px;
+}
+
+/*------------------------------------------- */
+#re_captcha{
+	margin-left: 140px;
+}
+
+/*------------------OTP-----------------------*/
+
+/*#otp_box_wrapper{
+	display: none;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: rgba(0,0,0,0.5);
+	text-align: center;
+}
+#otp_box{
+	background-color: #fff;
+	width: 50%;
+	margin: 300px auto;
+	padding-top: 40px;
+	padding-bottom: 45px;
+	display: none;
+}
+#sending_otp{
+	background-color: #fff;
+	width: 50%;
+	margin: 300px auto;
+	height: 400px;
+}
+#otp_box h5{
+	color: #cf3c48;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+#close_otp{
+	float: top;
+	height: 40px;
+	float: right;
+	cursor: pointer;
+
+}
+#otp_field{
+	border: 2px solid ;
+	border-radius: 5px;
+}
+*/

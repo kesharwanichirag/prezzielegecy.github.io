@@ -1,0 +1,140 @@
+#main_body{
+	margin: 0px auto;
+	margin-top: 180px;
+	width: 80%;
+	text-align: center;
+}
+
+#title label{ 
+	margin-top: 20px;
+	display: inline-block;
+	color: #cf3c48;
+	font-size: 23px;
+	border-bottom: 3px solid #cf3c48;
+	padding-bottom: 7px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 2px;
+	margin-right: 20px;
+}
+
+#bred_{
+	margin-right: 50%;
+	margin-top: 20px;
+}
+.seller_process_viewers{
+	margin-top: 20px;
+	font-size: 19px;
+	margin-bottom: 20px;
+}
+#seller_home_top{
+	text-decoration: none;
+}
+
+#seller_dashboard_current_page{
+	cursor: pointer;
+	font-weight: bold;
+}
+
+
+#user_box{
+	margin-top: 30px;
+	width: 40%;
+	margin-left: 33%;
+}
+
+#img_box{	
+	float: left;
+}
+
+#user_img{
+	height: 100px;
+	border-radius: 50px;
+}
+
+#dtls_box{
+
+}
+
+#user_name{
+	float: left;
+	margin-left: 10px;
+	display: inline-block;
+	font-size: 20px;
+}
+
+#user_eml{
+	float: left;
+	margin-left: -60px;
+	display: inline-block;
+	color: #777;
+}
+
+#loginform table{
+	width: 70%;
+	margin-top: 40px;
+	margin-left: 30%;
+}
+
+.labels{
+	height: 30px;
+	float: right;
+	margin-top: 30px;
+
+}
+
+.psw_lbl{
+	float: left;
+	margin-top: 30px;
+	margin-left: 50px;
+	font-weight: bold;
+}
+
+.fields{
+	margin-left: 10px;
+	float: left;
+	border-bottom-style: 2px solid #cf3c48;
+	width: 40%;
+	height: 25px;
+	font-size: 16px;
+	padding: 2px 15px;
+	margin-top: 30px;
+}
+
+.fields:focus{
+	outline: none;
+}
+
+
+#button{
+	height: 37px;
+	width: 150px;
+	margin-top: 30px;
+	font-size: 16px;
+	background-color: #cf3c48;
+	border: 1px solid #fff;
+	border-radius: 13px;
+	color: #fff;
+	border: none;
+}	
+
+#button:hover{
+	background-color: #fff;
+	color: #cf3c48;
+	border: 1px solid #cf3c48;
+	cursor: pointer;
+}
+
+
+
+#error_message{
+	text-align: center;
+	background-color: #ffc6c6;
+	width: 40%;
+	margin-left: 110px;
+	margin-top: 30px;
+	margin-left: 28%;
+	display: none;
+	color: red;
+	font-size: 15px;
+}

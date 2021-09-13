@@ -1,0 +1,67 @@
+#main_body{
+	margin: 0px auto;
+	margin-top: 180px;
+	width: 60%;
+	text-align: center;
+}
+
+#title label{ 
+	margin-top: 20px;
+	display: inline-block;
+	color: #cf3c48;
+	font-size: 23px;
+	border-bottom: 3px solid #cf3c48;
+	padding-bottom: 7px;
+	padding-right: 30px;
+	padding-left: 20px;
+	border-radius: 2px;
+}
+#new_seller{
+	display: inline-block;
+	margin-top: 30px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #669db2;
+	margin-left: 00px;
+	padding: 5px 15px;
+	border: 1px solid #006600;
+}
+#new_seller:hover{
+	background-color: #2874f0;
+}
+/*===================================================*/
+#table_box{
+	margin-top: 30px;
+}
+
+#table{
+	text-align: center;
+	border-collapse: collapse;
+	width: 90%;
+	border: 1px solid #ccc;
+
+}
+
+td{
+	padding: 10px;
+}
+
+.table_labels{
+	color: #fff;
+}
+
+.table_header{
+	background-image: linear-gradient(#3366cc,#000066);
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.my_seller_account_details{
+	text-decoration: none;
+	color: #494949;
+}
+
+.seller_account_names{
+	font-weight: bold;
+	color: #cf3c48;
+}

@@ -1,0 +1,71 @@
+#main_body{
+	margin: 0px auto;
+	margin-top: 180px;
+	width: 90%;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+#title label{ 
+	display: inline-block;
+	color: #cf3c48;
+	font-size: 22px;
+	border-bottom: 3px solid #cf3c48;
+	padding-bottom: 7px;
+	padding-right: 30px;
+	padding-left: 20px;
+	border-radius: 2px;
+}
+#bred_{
+	margin-right: 50%;
+	margin-top: 20px;
+}
+.seller_process_viewers{
+	margin-top: 20px;
+	font-size: 19px;
+	margin-bottom: 20px;
+}
+#seller_home_top{
+	text-decoration: none;
+}
+
+#seller_dashboard_current_page{
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#seller_dashboard_details_box{
+	margin-top: 50px;
+}
+
+.seller_dashboard_details{
+	display: inline-block;
+	margin-left: 40px;
+	cursor: pointer;
+}
+
+.seller_oths{
+	text-decoration: none;
+	font-weight: bold; 
+}
+
+.seller_oths:hover{
+	text-decoration: underline;
+	color: #444;
+
+}
+
+#seller_dashboard_details_viewer{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: rgba(0,0,0,0.4);
+	text-align: center;
+	display: none;
+}
+
+.imgs_{
+	height: 130px;
+}

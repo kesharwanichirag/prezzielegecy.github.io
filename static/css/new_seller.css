@@ -1,0 +1,146 @@
+#main_body{
+	margin: 0px auto;
+	margin-top: 180px;
+	width: 40%;
+	text-align: center;
+}
+
+#title label{ 
+	margin-top: 20px;
+	display: inline-block;
+	color: #cf3c48;
+	font-size: 23px;
+	border-bottom: 3px solid #cf3c48;
+	padding-bottom: 7px;
+	padding-right: 30px;
+	padding-left: 20px;
+	border-radius: 2px;
+}
+
+.seller_process_viewers{
+	float: left;
+	margin-top: 20px;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+#seller_home_top{
+	text-decoration: none;
+}
+
+#current_page{
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#seller_form table{
+	width: 90%;
+	margin-top: 40px;
+	margin-left: 60px;
+}
+
+.labels{
+	height: 30px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+#buisness_image{
+	height: 45px;
+	margin-right: 0px;
+}
+#select_buisness_type{
+	float: left;
+	margin-left: 5px;
+	width: 260px;
+	height: 30px;
+	margin-top: 30px;
+}
+#adhaar_image{
+	height: 25px;
+	margin-top: 18px;
+	float: right;
+	margin-right: 8px;
+}
+
+.fields{
+	margin-left: 5px;
+	float: left;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: 2px solid #cf3c48;
+	width: 70%;
+	height: 25px;
+	margin-top: 30px;
+	font-size: 16px;
+	padding: 2px 15px;
+}
+
+#button{
+	height: 37px;
+	width: 150px;
+	margin-top: 40px;
+	font-size: 16px;
+	background-color: #cf3c48;
+	border: 1px solid #fff;
+	border-radius: 13px;
+	color: #fff;
+	border: none;
+}	
+
+#button:hover{
+	background-color: #fff;
+	color: #cf3c48;
+	border: 1px solid #cf3c48;
+	cursor: pointer;
+}
+
+#re_captcha{
+	
+	margin-left: 150px;
+}
+
+
+.error{
+	margin-left: 5px;
+	float: left;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: 2px solid red;
+	color: red;
+	background-color: #ffc6c6;
+	width: 70%;
+	height: 25px;
+	margin-top: 30px;
+	font-size: 16px;
+	padding: 2px 15px;
+}
+
+#error_message{
+	background-color: #ffc6c6;
+	width: 80%;
+	margin-left: 52px;
+	display: none;
+	color: red;
+	font-size: 15px;
+}
+/*---------------------------*/
+/*
+#table_2{
+	float: left;
+}
+
+#adhaar_hint{
+	font-weight: bold;
+	color: green;
+	float: left;
+	margin-left: 50px;
+}
+
+#adhaar_warning{
+	float: left;
+	font-size: 10px;
+	color: red;
+}*/

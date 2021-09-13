@@ -1,0 +1,148 @@
+#main_body{
+	margin: 0px auto;
+	margin-top: 180px;
+	width: 40%;
+	text-align: center;
+}
+
+#title label{ 
+	margin-top: 20px;
+	display: inline-block;
+	color: #cf3c48;
+	font-size: 23px;
+	border-bottom: 3px solid #cf3c48;
+	padding-bottom: 7px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 2px;
+	margin-right: 20px;
+}
+
+#loginform table{
+	width: 90%;
+	margin-top: 40px;
+	margin-left: 60px;
+}
+
+.labels{
+	height: 30px;
+	float: right;
+	margin-top: 30px;
+	
+}
+.fields{
+	margin-left: 5px;
+	float: left;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: 2px solid #cf3c48;
+	width: 70%;
+	height: 25px;
+	margin-top: 30px;
+	font-size: 16px;
+	padding: 2px 15px;
+}
+
+.fields:focus{
+	outline: none;
+}
+
+
+#button{
+	height: 37px;
+	width: 150px;
+	margin-top: 30px;
+	font-size: 16px;
+	background-color: #cf3c48;
+	border: 1px solid #fff;
+	border-radius: 13px;
+	color: #fff;
+	border: none;
+}	
+
+#button:hover{
+	background-color: #fff;
+	color: #cf3c48;
+	border: 1px solid #cf3c48;
+	cursor: pointer;
+}
+#forgot_password{
+	display: inline-block;
+	font-family: arial;
+	font-size: 12px;
+	margin-top: 15px;
+	text-decoration: none;
+	color: #5e5e5e;
+}
+
+#forgot_password:hover{
+	text-decoration: underline;
+	color: blue;
+}
+.login_options{
+	display: inline-block;
+	margin-top: 25px;
+	text-decoration: none;
+	padding: 7px 35px;
+	font-size: 16px;
+}
+#login_facebook{
+	font-size: 15px;
+	color: #4267b2;	
+	border: 1px solid  #4267b2;
+	margin-left: 5px;
+}
+
+#login_facebook:hover{
+	background-color: #4267b2;
+	color: #fff;
+	border: 1px solid  #fff;
+}
+
+#login_gmail{
+	color: #e30000;
+	background-color: #fff;
+	margin-right: 5px;
+	border: 1px solid #e30000;
+}
+
+#login_gmail:hover{
+	color: #fff;
+	background-color: #e30000;
+	border: 1px solid #fff;
+}
+
+#create_new_account{
+	display: inline-block;
+	margin-top: 30px;
+	text-decoration: none;
+	padding: 8px 50px;
+	margin-bottom: 50px;
+	font-size: 17px;
+	background-color: #007900;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 8px;
+}
+
+#create_new_account:hover{
+	background-color: #fff;
+	color: #007900;
+	border: 1px solid #007900;
+}
+
+#re_captcha{
+	margin-top: 20px;
+	margin-left: 150px;
+}
+
+#error_message{
+	background-color: #ffc6c6;
+	height: 85px;
+	width: 80%;
+	margin-left: 52px;
+	display: none;
+	color: red;
+	font-size: 15px;
+}

@@ -1,0 +1,21 @@
+#main_body{
+	margin: 10px auto;
+	margin-top: 300px;
+	text-align: center;
+}
+.result{
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 7px 20px;
+	margin-top: 50px;
+}
+.success{
+	border:1px solid green;
+	background-color: #d9ffb3;
+	color: green;
+}
+.error{
+	border:1px solid red;
+	background-color: #ffc8c8;
+	color: red;
+}

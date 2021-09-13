@@ -1,0 +1,317 @@
+.img_slide{
+	vertical-align: middle;
+	width: 100%;
+	height: 530px;
+}
+
+.slideshow-container{
+	margin: 10px auto;
+	margin-top: 150px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover{
+	background-color: rgba(0,0,0,0.8);
+}
+.next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px){
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+/*---------------------------------------*/
+
+#varities{
+	border-top: 2px solid #cf3c48;
+	margin-top: 10px;
+	border-bottom: 2px solid #cf3c48;
+}
+
+.varities_options{
+	display: inline-block;
+
+}
+
+.varities_images{
+	height: 150px;
+	margin-left: 31px;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+#login_box{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: rgba(0,0,0,0.4);
+	text-align: center;
+	display: none;
+}	
+
+#index_form{
+	background-color: #fff;
+	position: fixed;
+	top: 100px;
+	height: 500px;
+	width: 50%;
+	margin-left: 25%;
+}
+
+#title label{ 
+	margin-top: 20px;
+	display: inline-block;
+	color: #cf3c48;
+	font-size: 23px;
+	border-bottom: 3px solid #cf3c48;
+	padding-bottom: 7px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 2px;
+}
+
+#loginform table{
+	width: 100%;
+	margin-top: 40px;
+	margin-left: 60px;
+}
+
+.labels{
+	height: 30px;
+	float: right;
+	margin-top: 30px;
+	
+}
+.fields{
+	margin-left: 5px;
+	float: left;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: 2px solid #cf3c48;
+	width: 100%;
+	height: 25px;
+	margin-top: 30px;
+	font-size: 16px;
+	padding: 2px 15px;
+}
+
+.fields:focus{
+	outline: none;
+}
+
+
+#button{
+	height: 37px;
+	width: 150px;
+	margin-top: 30px;
+	font-size: 16px;
+	background-color: #cf3c48;
+	border: 1px solid #fff;
+	border-radius: 13px;
+	color: #fff;
+	border: none;
+}	
+
+#button:hover{
+	background-color: #fff;
+	color: #cf3c48;
+	border: 1px solid #cf3c48;
+	cursor: pointer;
+}
+#forgot_password{
+	display: inline-block;
+	font-family: arial;
+	font-size: 12px;
+	margin-top: 15px;
+	text-decoration: none;
+	color: #5e5e5e;
+}
+
+.login_options{
+	display: inline-block;
+	margin-top: 25px;
+	text-decoration: none;
+	padding: 7px 35px;
+	font-size: 16px;
+}
+#login_facebook{
+	font-size: 15px;
+	color: #4267b2;	
+	border: 1px solid  #4267b2;
+	margin-left: 5px;
+}
+
+#login_facebook:hover{
+	background-color: #4267b2;
+	color: #fff;
+	border: 1px solid  #fff;
+}
+
+#login_gmail{
+	padding: 5px 47px;
+	color: #e30000;
+	background-color: #fff;
+	margin-right: 5px;
+	border: 1px solid #e30000;
+}
+
+#login_gmail:hover{
+	color: #fff;
+	background-color: #e30000;
+	border: 1px solid #fff;
+}
+#re_captcha{
+	margin-top: 20px;
+	margin-left: 230px;
+}
+
+#close{
+	height: 40px;
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+/*---------------------------------------*/
+.recom_{
+	margin-top: 30px;
+	display: inline-block;
+}
+
+.recom_ span{
+	color: #cf3c48;
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	font-size: 22px;
+	margin-left: 20px;
+	font-weight: bold;
+}
+
+#cat_box__{
+	border-top: 1px solid #ccc;	
+	border-bottom: 1px solid #ccc;
+}
+
+.index_cat{
+	width: 232px;
+	border: 1px solid #ccc;
+	border-top: none;
+	border-bottom: none;
+	display: inline-block;
+	margin-left: 12px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.prod_img{
+	border-bottom: 1px solid #ccc;
+	display: inline-block;
+	height: 208px;
+	width: 230px;
+}
+
+.prod_img_view{
+	height: 180px;
+}
+
+.ind_prods_name{
+	display: inline-block;
+	white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+	width: 220px;
+	color: #222;
+	font-weight: bold;
+}
+
+.price__{
+	color: #0074ac;
+}
+
+.price_bef{
+	color: #888;
+	margin-left: 8px;
+	font-size: 19px;
+}
+
+.disc__{
+	color: green;
+}
+
+.view_more_box{
+	display: inline-block;
+	float: right;
+	margin-top: 35px;
+	margin-right: 30px;
+}
+.view_more_{
+	color: #fff;
+	border: 1px solid #cf3c48;
+	padding: 3px 10px;
+	background-color: #cf3c48;
+	text-decoration: none;
+}
+.view_more_:hover{
+	background-color: #8d232c;
+}

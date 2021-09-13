@@ -1,0 +1,32 @@
+	<servlet>
+		<servlet-name>ocassionsbirthday</servlet-name>
+		<servlet-class>
+			controllers.CategoriesOcassionsBirthdayServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ocassionsbirthday</servlet-name>
+		<url-pattern>/categories_ocassions_birthday.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ocassionswedding</servlet-name>
+		<servlet-class>
+			controllers.CategoriesOcassionsWeddingServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ocassionswedding</servlet-name>
+		<url-pattern>/categories_ocassions_wedding.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ocassionsanniversery</servlet-name>
+		<servlet-class>
+			controllers.CategoriesOcassionsAnniverseryServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ocassionsanniversery</servlet-name>
+		<url-pattern>/categories_ocassions_anniversery.do</url-pattern>
+	</servlet-mapping>

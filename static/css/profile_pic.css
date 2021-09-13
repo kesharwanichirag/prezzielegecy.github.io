@@ -1,0 +1,147 @@
+#main_body{	
+	margin-top: 180px;
+	margin-bottom: 150px;
+	width: 60%;
+	text-align: center;
+	margin-left: 300px;
+}
+
+#profile_menu_box{
+
+}
+
+.user_profile_menu{
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 40px;
+	color: #cf3c48;
+}
+
+#title label{ 
+	margin-top: 30px;
+	margin-right: 10px;
+	display: inline-block;
+	color: #cf3c48;
+	font-size: 23px;
+	border-bottom: 3px solid #cf3c48;
+	padding-bottom: 7px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 2px;
+}
+
+#profile_pic{
+	height: 310px;
+	margin-top: 50px;
+	cursor: pointer;
+}
+
+#profile_pic_upload{
+	margin-left: 80px;
+}
+
+#button{
+	height: 37px;
+	width: 150px;
+	margin-top: 20px;
+	font-size: 16px;
+	background-color: #cf3c48;
+	border-radius: 13px;
+	color: #fff;
+	border: none;
+}	
+
+#button:hover{
+	background-color: #fff;
+	color: #cf3c48;
+	border: 1px solid #cf3c48;
+	cursor: pointer;
+}
+
+#remove_profile{
+	margin-top: 20px;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #669db2;
+	color: #fff;
+	padding: 5px 20px;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+#alert_box{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: rgba(0,0,0,0.3);
+	text-align: center;
+	display: none;
+}
+
+#alert{
+	background-color: #fff;
+	width: 40%;
+	position: absolute;
+	top: 300px;
+	left: 460px;
+}
+
+#alert label{
+	color: #cf3c48;
+	margin-top: 10px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+#yes{
+	border: 1px solid #669db2;
+	background-color: #669db2;
+	display: inline-block;
+	padding: 3px 15px;
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+
+#no{
+	border: 1px solid #444;
+	background-color: #fff;
+	display: inline-block;
+	padding: 3px 15px;
+	color: #444;
+	margin-left: 20px;
+	text-decoration: none;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+#img_click_view{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: rgba(0,0,0,0.3);
+	text-align: center;
+	display: none;
+}
+
+#img_click_view div{
+	background-color: #fff;
+	display: inline-block;
+	margin-top: 60px;
+}
+
+#show_profile_pic{
+	height: 650px;
+	margin-left: 40px;
+}
+
+#close{
+	height: 40px;
+	float: right;
+	margin-top: 5px;
+	cursor: pointer;
+}

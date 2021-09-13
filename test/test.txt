@@ -1,0 +1,15 @@
+1. category /
+2. sub category /
+3. price /
+4. discount /
+5. description /.
+6. disclamer /.
+7. quantity /.
+8. specification /.
+9. shipping details /.
+10. payment details /.
+11. returning policy/.
+12. product points/.
+13. images/.
+14. name /.
+15. warranty /.

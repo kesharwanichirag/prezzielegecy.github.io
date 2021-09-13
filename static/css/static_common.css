@@ -1,0 +1,24 @@
+
+#main_body{
+	margin-top: 180px;
+	margin-bottom: 100px;
+	width: 60%;
+	text-align: center;
+	margin-left: 300px;
+}
+
+.statics_{
+	font-size: 25px;
+	font-weight: bolder; 
+}
+.p_gs{
+	font-size: 20px;
+}
+
+.h4{
+	font-weight: bold;
+}
+
+.li{
+	float: left;
+}

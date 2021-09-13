@@ -1,0 +1,134 @@
+
+#main_body{	
+	margin-top: 180px;
+	margin-bottom: 100px;
+	width: 60%;
+	text-align: center;
+	margin-left: 300px;
+}
+
+
+#profile_menu_box{
+
+}
+
+.user_profile_menu{
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 40px;
+	color: #cf3c48;
+}
+
+
+#title label{ 
+	margin-top: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	color: #cf3c48;
+	font-size: 23px;
+	border-bottom: 3px solid #cf3c48;
+	padding-bottom: 7px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 2px;
+}
+
+#address_form table{
+	width: 60%;
+	margin-top: 0px;
+	margin-left: 180px;
+}
+
+.fields{
+	margin-left: 5px;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	width: 70%;
+	height: 25px;
+	margin-top: 30px;
+	font-size: 16px;
+	padding: 2px 15px;
+}
+.fields:focus{
+	outline: none;
+}
+
+.other_labels{
+	color: #000;
+	font-size: 18px;
+	padding-bottom: 7px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-bottom: 1px solid #000;
+	
+}
+#city{
+	width: 50%;
+	position: relative;
+}
+
+#srch_res{
+	width: 30%;
+	font-weight: bold;
+	border: 1px solid ;
+	position: absolute;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	left: 530px;
+	display: none;
+	background-color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+#pin{
+	width: 300px;
+}
+
+#address{
+	border: 1px solid ;
+	resize: none;
+	height: 100px;
+	padding: 20px 30px;
+	font-size: 18px;
+}
+
+
+#back{
+	float: left;
+	margin-top: 30px;
+	font-size: 16px;
+	margin-left: 40px;
+	text-decoration: none;
+	background-color: #408080;
+	border-radius: 13px;
+	color: #fff;
+	border: none;
+	padding: 5px 50px;
+}
+
+#back:hover{
+	background-color: #fff;
+	color: #0080c0;
+	border: 1px solid #0080c0;
+	cursor: pointer;
+}
+
+#button{
+	height: 37px;
+	width: 150px;
+	margin-top: 30px;
+	font-size: 16px;
+	background-color: #cf3c48;
+	border-radius: 13px;
+	color: #fff;
+	border: none;
+}	
+
+#button:hover{
+	background-color: #fff;
+	color: #cf3c48;
+	border: 1px solid #cf3c48;
+	cursor: pointer;
+}
